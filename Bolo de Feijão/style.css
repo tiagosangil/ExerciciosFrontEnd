@@ -1,0 +1,89 @@
+body {
+    background-image: url("https://img.freepik.com/premium-vector/flower-cartoon-character-seamless-pattern-purple-background_618978-339.jpg");
+    background-color: rgb(208, 171, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    color:blanchedalmond;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 1px 2px 4px black;
+}
+
+#nome_receita {
+    text-decoration: underline;
+}
+
+
+#intro {
+    display: block;
+    border: solid;
+    border-radius: 30px;
+    margin: auto;
+    width: 500px;
+
+    text-shadow: 1px 2px 4px black;
+    color: blanchedalmond;
+    text-align: center;
+    background-color: mediumpurple;
+}
+
+#foto_bolo {
+    display: block;
+    border: solid;
+    border-radius: 100px;
+    border-color: plum;
+
+    box-shadow: 4px 2px 10px 4px plum;
+}
+#foto_bolo:hover {
+    transform: scale(1.2);
+}
+#marquee {
+    height: 275px;
+}
+
+#ingred_prep {
+    display: block;
+    border: solid;
+    margin: auto;
+    width: 255px;
+    height: 490px;
+    border-radius: 30px;
+    border-color: aliceblue;
+    
+    color: blanchedalmond;
+    text-shadow: 2px 2px 4px black;
+    background-color: rgba(215, 107, 241, 0.678);
+    text-align: center;
+}
+.ingredientes {
+    font-size: large;
+    margin: 2px;
+    display: inline-block;
+    text-align: left;
+}
+.modo_prep {
+    font-size: large;
+    margin: 2px;
+    display: inline-block;
+    text-align: left;
+}
+
+#fundo_roxo {
+    background-color:blueviolet;
+    width:800px;
+
+    text-align: center;
+    display: block;
+    border: solid;
+    border-radius: 30px;
+    margin: auto;
+    border-color: blanchedalmond;
+}
+
+footer {
+    color:aliceblue;
+    text-shadow: 1px 1px black;
+}
